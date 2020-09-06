@@ -156,7 +156,8 @@ def executeAction():
                             + "\n" + what_i_learned
                             + "\n" + txt1
                             + txt2 + "\n" +
-                            "-------------------------------------------------------------------------")
+                            "-------------------------------------------------------------------------"
+                            + '\n')
         btn = driver.find_element_by_css_selector("#id_submitbutton")
         btn.click()
     else:
