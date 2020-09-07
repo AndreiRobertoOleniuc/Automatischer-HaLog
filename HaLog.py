@@ -143,7 +143,7 @@ def executeAction():
         user_fill.send_keys(name)
         pass_fill.send_keys(password)
         submit.click()
-        driver.get("https://moodle.bbbaden.ch/mod/journal/edit.php?id=74549")
+        driver.get("https://moodle.bbbaden.ch/mod/journal/edit.php?id=75819")
 
         textfield = driver.find_element_by_css_selector("#id_text_editoreditable > p")
         textfield.send_keys("-------------------------------------------------------------------------" +

@@ -7,9 +7,11 @@
 -- Server-Version: 10.4.13-MariaDB
 -- PHP-Version: 7.2.31
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE
+= "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone
+= "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -27,10 +29,14 @@ SET time_zone = "+00:00";
 -- Tabellenstruktur für Tabelle `logins`
 --
 
-CREATE TABLE `logins` (
-  `id` int(11) NOT NULL,
-  `email` varchar(20) NOT NULL,
-  `password` varchar(20) NOT NULL
+CREATE TABLE `logins`
+(
+  `id` int
+(11) NOT NULL,
+  `email` varchar
+(20) NOT NULL,
+  `password` varchar
+(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -46,7 +52,8 @@ CREATE TABLE `logins` (
 -- Indizes für die Tabelle `logins`
 --
 ALTER TABLE `logins`
-  ADD PRIMARY KEY (`id`);
+ADD PRIMARY KEY
+(`id`);
 
 --
 -- AUTO_INCREMENT für exportierte Tabellen
@@ -56,9 +63,12 @@ ALTER TABLE `logins`
 -- AUTO_INCREMENT für Tabelle `logins`
 --
 ALTER TABLE `logins`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int
+(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
